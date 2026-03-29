@@ -22,5 +22,23 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "l2",
+    "blockchain",
+    "auth"
+  ],
+  "author": "bbkenny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChainLab-X/stacks-helpers-auth",
+    "directory": "packages/auth"
+  },
+  "bugs": {
+    "url": "https://github.com/ChainLab-X/stacks-helpers-auth/issues"
+  },
+  "homepage": "https://github.com/ChainLab-X/stacks-helpers-auth#readme"
 }
