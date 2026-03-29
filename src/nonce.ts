@@ -1,5 +1,5 @@
-import { API_URLS } from "@stacks-helpers/types";
-import type { NonceInfo } from "@stacks-helpers/types";
+import { API_URLS } from "@richiey1/types";
+import type { NonceInfo } from "@richiey1/types";
 
 export async function getNonce(
   address: string,

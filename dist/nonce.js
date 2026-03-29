@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getNonce = getNonce;
 exports.getBalance = getBalance;
-const types_1 = require("@stacks-helpers/types");
+const types_1 = require("@richiey1/types");
 async function getNonce(address, networkUrl = types_1.API_URLS.mainnet) {
     const resp = await fetch(`${networkUrl}/v2/accounts/${address}?proof=0`);
     if (resp.status === 429) {
